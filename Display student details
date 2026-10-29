@@ -1,0 +1,9 @@
+name = input("Enter student name: ")
+roll = input("Enter roll number: ")
+course = input("Enter course: ")
+marks = float(input("Enter marks: "))
+
+print(f"\nName: {name}")
+print(f"Roll Number: {roll}")
+print(f"Course: {course}")
+print(f"Marks: {marks}")
