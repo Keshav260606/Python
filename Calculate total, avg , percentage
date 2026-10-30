@@ -1,0 +1,12 @@
+marks = []
+
+for i in range(5):
+    marks.append(float(input(f"Enter marks of subject {i+1}: ")))
+
+total = sum(marks)
+average = total / 5
+percentage = total / 500 * 100
+
+print("Total:", total)
+print("Average:", average)
+print("Percentage:", percentage, "%")
