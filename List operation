@@ -1,0 +1,19 @@
+numbers = [10, 30, 20, 50, 40]
+print("Original:", numbers)
+
+numbers.insert(1, 15)
+print("After insertion:", numbers)
+
+numbers.remove(30)
+print("After deletion:", numbers)
+
+numbers.sort()
+print("Sorted:", numbers)
+
+print("Slicing:", numbers[1:4])
+
+n = int(input("Enter number to search: "))
+if n in numbers:
+    print("Found at index:", numbers.index(n))
+else:
+    print("Not found")
