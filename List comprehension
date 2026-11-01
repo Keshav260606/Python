@@ -1,0 +1,5 @@
+marks = list(map(int, input("Enter marks: ").split()))
+
+result = [m for m in marks if m > 50]
+
+print("Marks greater than 50:", result)
