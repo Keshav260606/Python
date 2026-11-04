@@ -1,0 +1,14 @@
+student = {"name": "Rahul", "roll": 101, "marks": 85}
+
+student["course"] = "MCA"  # Add
+print("After adding:", student)
+
+student["marks"] = 90  # Update
+print("After updating:", student)
+
+key = input("Enter key to search: ")
+print(student.get(key, "Key not found"))
+
+key = input("Enter key to delete: ")
+student.pop(key, None)
+print("After deletion:", student)
