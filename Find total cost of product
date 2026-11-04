@@ -1,0 +1,14 @@
+products = {"Pen": 10, "Book": 50, "Bag": 500}
+total = 0
+
+print("Products:", products)
+
+items = input("Enter selected products: ").split()
+
+for item in items:
+    if item in products:
+        total += products[item]
+    else:
+        print(item, "not available")
+
+print("Total cost:", total)
